@@ -1,0 +1,21 @@
+{
+  "name": "placeometerfullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"yarn run server\" \"yarn run client\"",
+    "server": "nodemon server.js",
+    "client": "cd client && yarn run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.4.0"
+  }
+}

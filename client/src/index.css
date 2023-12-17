@@ -1,0 +1,15 @@
+nav {
+  top: 0;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #111; /* Replace with your desired background color */
+  padding: 10px;
+  text-align: center;
+  color: #aaa;
+}
+.row{
+  margin-bottom: 50px;
+}
